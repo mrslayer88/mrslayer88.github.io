@@ -1,0 +1,36 @@
+input {
+	display: block;
+}
+
+.check {
+	display: inline-block;
+	margin-top: 6rem;
+	margin-left: 6rem;
+}
+a {
+	display: block;
+}
+
+button {
+	display: block;
+}
+.form {
+	margin-top: 7rem;
+	margin-left: 5rem;
+}
+input {
+	margin-top: 3rem;
+}
+.remember-btn {
+	margin-top: 2rem;
+	margin-left: 6rem;
+}
+
+.active {
+	border: 1rem solid #03a5da;
+	border-radius: 6px;
+}
+
+.nav-item a {
+	padding: 1rem 2.5rem;
+}

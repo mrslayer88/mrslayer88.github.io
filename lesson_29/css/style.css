@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+.section {
+	min-height: 100vh;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	display: table;
+}
+
+h1 {
+	display: table-cell;
+}

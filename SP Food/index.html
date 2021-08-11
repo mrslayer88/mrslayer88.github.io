@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SystemFood</title>
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -50,28 +50,32 @@
             </div>
         </div>
     </header>
-    <section class="main">
+    <section class="main main-contant">
         <div class="container">
             <div class="main-wrapper">
-                <div class="main-text">
-                    <h2>Скидка при оплате от 7 дневных наборов</h2>
-                    <div class="main-text-block">
-                        <p>System food - это сервис по доставке правильного сбалансированного питания в контейнерах на
-                            каждый день,
-                            с использованием натуральных продуктов, для людей, <br> выбирающих здоровый образ жизни.
-                            Правильное питание <br> может,
-                            и должно быть разнообразным и вкусным. Выберите <br> программу, которая соответствует вашей
-                            цели и достигайте её вместе с нами!</p>
+                <div class="main-block">
+                    <div class="main-text">
+                        <h2>Скидка при оплате от 7 дневных наборов</h2>
+                        <div class="main-text-block">
+                            <p>System food - это сервис по доставке правильного сбалансированного питания в контейнерах
+                                на
+                                каждый день,
+                                с использованием натуральных продуктов, для людей, <br> выбирающих здоровый образ жизни.
+                                Правильное питание <br> может,
+                                и должно быть разнообразным и вкусным. Выберите <br> программу, которая соответствует
+                                вашей
+                                цели и достигайте её вместе с нами!</p>
+                        </div>
                     </div>
-                </div>
-                <div class="main-buttons">
-                    <button class="prime-button">Калькулятор калорий</button>
-                    <button class="prime-button">Консультация диетолога</button>
+                    <div class="main-buttons">
+                        <button class="button">Калькулятор калорий</button>
+                        <button class="button">Консультация диетолога</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="calc section">
+    <section class="calc section main-contant">
         <div class="container">
             <h2>Калькулятор калорий</h2>
             <div class="calc-wrapper">
@@ -88,46 +92,48 @@
                     </form>
                 </div>
             </div>
-            <button class="prime-button">Рассчитать</button>
+            <button class="button">Рассчитать</button>
         </div>
     </section>
-    <section class="programm section">
+    <section class="programm section main-contant">
         <div class="container">
             <h2>Программы питания</h2>
-            <div class="programm-cards">
-                <div class="programm-card">
-                    <div class="programm-card-img"> <img src="./img/programm/Forma_1.png" alt=""> </div>
-                    <h3>Снижение веса</h3>
-                    <div class="programm-card-buttons">
-                        <button class="prime-button">mini: 700-1000 ккал</button>
-                        <button class="prime-button">opti: 1000-1300 ккал</button>
-                        <button class="prime-button">maxi: 1300-1700 ккал</button>
+            <div class="programm-wrapper">
+                <div class="programm-cards">
+                    <div class="programm-card">
+                        <div class="programm-card-img"> <img src="./img/programm/Forma_1.png" alt=""> </div>
+                        <h3>Снижение веса</h3>
+                        <div class="programm-card-buttons">
+                            <button class="button">mini: 700-1000 ккал</button>
+                            <button class="button">opti: 1000-1300 ккал</button>
+                            <button class="button">maxi: 1300-1700 ккал</button>
+                        </div>
+                    </div>
+                    <div class="programm-card">
+                        <div class="programm-card-img"> <img src="./img/programm/Forma_2.png" alt=""> </div>
+                        <h3>Сбалансированное
+                            питание</h3>
+                        <div class="programm-card-buttons">
+                            <button class="button">mini: 1000-1300 ккал</button>
+                            <button class="button">opti: 1300-1700 ккал</button>
+                            <button class="button">maxi: 1700-1900 ккал</button>
+                        </div>
+                    </div>
+                    <div class="programm-card">
+                        <div class="programm-card-img"> <img src="./img/programm/Forma_3.png" alt=""> </div>
+                        <h3>Фитнес питание</h3>
+                        <div class="programm-card-buttons">
+                            <button class="button">mini: 1300-1700 ккал</button>
+                            <button class="button">opti: 1700-1900 ккал</button>
+                            <button class="button">maxi: 1900-2300 ккал</button>
+                        </div>
                     </div>
                 </div>
-                <div class="programm-card">
-                    <div class="programm-card-img"> <img src="./img/programm/Forma_2.png" alt=""> </div>
-                    <h3>Сбалансированное
-                        питание</h3>
-                    <div class="programm-card-buttons">
-                        <button class="prime-button">mini: 1000-1300 ккал</button>
-                        <button class="prime-button">opti: 1300-1700 ккал</button>
-                        <button class="prime-button">maxi: 1700-1900 ккал</button>
-                    </div>
-                </div>
-                <div class="programm-card">
-                    <div class="programm-card-img"> <img src="./img/programm/Forma_3.png" alt=""> </div>
-                    <h3>Фитнес питание</h3>
-                    <div class="programm-card-buttons">
-                        <button class="prime-button">mini: 1300-1700 ккал</button>
-                        <button class="prime-button">opti: 1700-1900 ккал</button>
-                        <button class="prime-button">maxi: 1900-2300 ккал</button>
-                    </div>
-                </div>
+                <p>или рассчитайте программу на <a href="#">калькуляторе</a> </p>
             </div>
-            <p>или рассчитайте программу на <a href="#">калькуляторе</a> </p>
         </div>
     </section>
-    <section class="how section">
+    <section class="how section main-contant">
         <div class="container">
             <h2>Как заказать</h2>
             <div class="how-wrapper">
@@ -166,7 +172,7 @@
             </div>
         </div>
     </section>
-    <section class="result section">
+    <section class="result section main-contant">
         <div class="container">
             <h2>Ваш результат</h2>
             <div class="result-wrapper">
@@ -202,53 +208,53 @@
                     </div>
                 </div>
             </div>
-            <button class="secondary-button">Получить консультацию</button>
+            <button class="button">Получить консультацию</button>
         </div>
     </section>
-    <section class="who section">
+    <section class="who section main-contant">
         <div class="container">
             <h2>Кому это подходит</h2>
             <div class="who-wrapper">
                 <div class="who-block-left">
-                    <div class="who-block">
+                    <div class="who-block block1">
                         <h3>Худеющим</h3>
                         <p>С нами худеть легко. Вы не сужаете, а наоборот <br>
-                            – расширяете свой рацион, едите <br>
-                            разнообразные диетические блюда и, в <br>
-                            результате, избавляетесь от лишних килограм</p>
+                             – расширяете свой рацион, едите <br>
+                              разнообразные диетические блюда и, в <br>
+                               результате, избавляетесь от лишних килограм</p>
                     </div>
-                    <div class="who-block">
+                    <div class="who-block block2">
                         <h3>Молодым мамам</h3>
                         <p>Вы заняты ребенком? Не хватает времени на <br>
-                            себя? А ведь так хочется влезть в любимые <br>
-                            джинсы, которые носили до родов. Начните <br>
-                            правильно питаться, а мы поможем вернуться <br>
-                            в форму.</p>
+                             себя? А ведь так хочется влезть в любимые <br>
+                              джинсы, которые носили до родов. Начните <br>
+                               правильно питаться, а мы поможем вернуться в <br>
+                                форму.</p>
                     </div>
                 </div>
                 <div class="who-block-right">
-                    <div class="who-block">
+                    <div class="who-block block3">
                         <h3>Деловым людям</h3>
                         <p>Вы так заняты работой, что не хватает времени <br>
-                            на правильное питание? Делегируйте готовку <br>
-                            нам! Сэкономьте свое время и получайте <br>
-                            ежедневно здоровый рацион по программе <br>
-                            питания от диетолога.</p>
+                             на правильное питание? Делегируйте готовку <br>
+                              нам! Сэкономьте свое время и получайте <br>
+                               ежедневно здоровый рацион по программе <br>
+                                питания от диетолога.</p>
                     </div>
-                    <div class="who-block">
+                    <div class="who-block block4">
                         <h3>Спортсменам</h3>
                         <p>Не успеваете готовить спортивное питание? С <br>
-                            нами вы забудете об этой проблеме. Наш <br>
-                            диетолог составит программу питания, исходя <br>
-                            из Ваших спортивных целей, и вы будете <br>
-                            ежедневно получать готовый рацион на весь <br>
-                            день.</p>
+                             намивы забудете об этой проблеме. Наш <br>
+                              диетолог составит программу питания, исходя <br>
+                               из Ваших спортивных целей, и вы будете <br>
+                                ежедневно получать готовый рацион на весь <br>
+                                 день.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="question section">
+    <section class="question section main-contant">
         <div class="container">
             <h2>Остались вопросы?</h2>
             <div class="question-wrapper">
@@ -266,7 +272,7 @@
                     </form>
                 </div>
             </div>
-            <button class="prime-button">отправить</button>
+            <button class="button">отправить</button>
         </div>
     </section>
     <footer class="footer">
@@ -285,8 +291,10 @@
                 <div class="bematerial-logo">
                     <img src="./img/bematerial-logo.png" alt="">
                 </div>
-                <div class="bematerial-descr"> <p>Создание и продвижение данного <br>
-                    сайта "BeMaterial"</p></div>
+                <div class="bematerial-descr">
+                    <p>Создание и продвижение данного <br>
+                        сайта "BeMaterial"</p>
+                </div>
             </div>
         </div>
         <div class="footer-info">
